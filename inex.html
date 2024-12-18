@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دسته‌بندی کتاب</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+        .category {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px;
+            width: 300px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .category img {
+            width: 100%;
+            height: auto;
+        }
+        .category h3 {
+            margin: 0;
+            padding: 15px;
+            background-color: #f8f8f8;
+        }
+        .category ul {
+            list-style: none;
+            margin: 0;
+            padding: 15px;
+        }
+        .category ul li {
+            margin: 5px 0;
+        }
+        .category ul li a {
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        .category ul li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>دسته‌بندی کتاب‌ها</h1>
+    </header>
+    <div class="container">
+        <!-- دسته اول -->
+        <div class="category">
+            <img src="book-category-1.jpg" alt="دسته اول">
+            <h3>داستانی</h3>
+            <ul>
+                <li><a href="page1.html">رمان کلاسیک</a></li>
+                <li><a href="page2.html">داستان کوتاه</a></li>
+                <li><a href="page3.html">ادبیات معاصر</a></li>
+            </ul>
+        </div>
+
+        <!-- دسته دوم -->
+        <div class="category">
+            <img src="book-category-2.jpg" alt="دسته دوم">
+            <h3>علمی</h3>
+            <ul>
+                <li><a href="page4.html">فیزیک و شیمی</a></li>
+                <li><a href="page5.html">زیست‌شناسی</a></li>
+                <li><a href="page6.html">ریاضیات</a></li>
+            </ul>
+        </div>
+
+        <!-- دسته سوم -->
+        <div class="category">
+            <img src="book-category-3.jpg" alt="دسته سوم">
+            <h3>تاریخی</h3>
+            <ul>
+                <li><a href="page7.html">تاریخ ایران</a></li>
+                <li><a href="page8.html">تاریخ جهان</a></li>
+                <li><a href="page9.html">تاریخ معاصر</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
